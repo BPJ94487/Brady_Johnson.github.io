@@ -4,6 +4,7 @@ body{
   margin: 0;
   text-align: center;
   width: 100%;
+  background-image: url("./images/Prime-ish_tile.png");
 }
 
 h1{
