@@ -1,24 +1,32 @@
-
-body{
-  height: 100%;
-  margin: 0;
-  text-align: center;
-  width: 100%;
+/*
   background-image: url("./images/Prime-ish_tile.png");
 }
+*/
 
-h1{
-  font-size: 32px;
-  font-family: Palatino, 'Palatino Linotype', serif;
-  color: blue;
+.container{
+
+    width: 60%;
+    margin: auto;
+    border:8px solid #ccc;
+    border-radius: 15px;
+    adding: 30px;
+    background-color: lightgrey;
 }
 
-h3{
-  text-align: left;
-  font-size: 1rem;
-  font-family: Calibri, 'Times new roman', serif;
+.NamePictureAddress{
+text-align: center;
+word-spacing: 0.5em;
 }
 
-  .skills{
-    text-alight: right;
+.NamePictureAddress h1{
+  font-size: 40;
+  text-decoration: underline;
+  font-color: blue;
+  font-family:serif;
 }
+
+body{
+  background-color: white;
+}
+
+
